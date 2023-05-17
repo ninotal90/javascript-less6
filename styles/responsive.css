@@ -1,0 +1,43 @@
+@media (max-width: 500px) {
+    .navigation {
+        display: none;
+    } 
+    .burger {
+        display: block;
+    }
+    .navElement {
+        flex-direction: column;
+    }
+    .navigation ul {
+        flex-direction: column;
+        align-items: center;
+        max-width: 900px;
+    }
+    .navigation li {
+        margin-top: 40px;
+        font-size: 25px;
+    }
+    .navigation a {
+        color: red;
+    }
+    .navigation.active{
+        display: block;
+        max-width: 700px;
+        width: 100%;
+        height: 400px;
+        background-image: url(../images/light.jpg);
+        background-repeat: no-repeat;
+        margin-top: 50px;
+    }
+   .burgerLine .line1 {
+      top:50%;
+      transform: translate(-50%,-50%) rotate(45deg);
+   }
+   .burgerLine .line3 {
+    top:50%;
+    transform: translate(-50%,-50%) rotate(-45deg);
+   }
+   .burgerLine .line2 {
+    display: none;
+   }
+}

@@ -1,0 +1,105 @@
+/* 1.ბურგერ ბარის აწყობა */
+
+.wraper {
+    max-width: 100%;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    background-color:lightpink;
+    position: relative;
+}
+.main-div {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+.logo {
+    color: red;
+}
+.navigation {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.navigation a {
+    color: red;
+}
+.navigation ul {
+    display: flex;
+    justify-content: space-between;
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+}
+.burger {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #fff;
+    display: none;
+}
+
+.line {
+    width: 80%;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition:all 0.5s;
+}
+.line1 {
+    top:30%
+}
+.line3{
+    top: 70%;
+}
+
+
+
+/* 2.ინფუთის აწყობა */
+
+section {
+    max-width: 250px;
+    width: 100%;
+    height: auto;
+    background-color: lightpink;
+    margin-top: 430px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+h2 {
+    margin-bottom: 10px;
+    text-align: center;
+    color: red;
+    font-size: 25px;
+}
+.input-class {
+    margin-top: 20px;
+    margin-left: 3px;
+    height: 25px;
+}
+.butten-class {
+    height: 30px;
+    color: red;
+}
+.clear {
+    margin-left: 90px;
+    height: 25px;
+    color: red;
+}
+.trash {
+    display: none;
+}
+.trash.trashActive {
+    display: block;
+    color: black;
+}
