@@ -1,4 +1,4 @@
-`use strict`;
+"use strict";
 
 1;
 let navigation = document.getElementById("navElement");
